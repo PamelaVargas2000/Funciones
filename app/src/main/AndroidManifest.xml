@@ -19,7 +19,7 @@
             android:name=".Potencia"
             android:exported="false" />
         <activity
-            android:name=".Formula"
+            android:name=".FormulaActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

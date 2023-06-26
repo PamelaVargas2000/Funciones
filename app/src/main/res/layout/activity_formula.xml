@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Formula">
+    tools:context=".FormulaActivity">
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btncalcula"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#03A9F4"
@@ -87,7 +87,7 @@
         app:layout_constraintVertical_bias="0.395" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/txtnum1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -101,7 +101,7 @@
         app:layout_constraintVertical_bias="0.256" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/txtresult"
         android:layout_width="150dp"
         android:layout_height="60dp"
         android:ems="10"
@@ -115,7 +115,7 @@
         app:layout_constraintVertical_bias="0.663" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/txtnum2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -129,7 +129,7 @@
         app:layout_constraintVertical_bias="0.402" />
 
     <EditText
-        android:id="@+id/editTextText4"
+        android:id="@+id/txtnum3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
