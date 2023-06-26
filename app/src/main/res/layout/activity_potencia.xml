@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Potencia">
+    tools:context=".PotenciaActivity">
 
     <EditText
-        android:id="@+id/editTextText6"
+        android:id="@+id/txtn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -47,7 +47,7 @@
         app:layout_constraintVertical_bias="0.724" />
 
     <EditText
-        android:id="@+id/editTextText8"
+        android:id="@+id/btnres"
         android:layout_width="150dp"
         android:layout_height="60dp"
         android:ems="10"
@@ -61,7 +61,7 @@
         app:layout_constraintVertical_bias="0.569" />
 
     <EditText
-        android:id="@+id/editTextText7"
+        android:id="@+id/txtn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"

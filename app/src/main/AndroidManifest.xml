@@ -16,7 +16,7 @@
             android:name=".TrinomioActivity"
             android:exported="false" />
         <activity
-            android:name=".Potencia"
+            android:name=".PotenciaActivity"
             android:exported="false" />
         <activity
             android:name=".FormulaActivity"
