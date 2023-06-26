@@ -1,11 +1,12 @@
 package com.example.funciones;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 public class FormulaActivity extends AppCompatActivity {
 
     @Override
@@ -13,7 +14,8 @@ public class FormulaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_formula);
     }
-    public void calcularEcuacion(View view){
+    
+    public void calcularEcuacion (View view){
 
         double x1, x2;
 
@@ -44,4 +46,6 @@ public class FormulaActivity extends AppCompatActivity {
 
         }
     }
+
+
 }
